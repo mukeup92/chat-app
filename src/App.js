@@ -5,7 +5,7 @@ import './App.css';
 
 
 function App() {
-  const { current: socket } = useRef(io("https://great-chat-app.herokuapp.com:8000/room"));
+  const { current: socket } = useRef(io("https://great-chat-app.herokuapp.com/room"));
 
   return (
     <div className="App">
