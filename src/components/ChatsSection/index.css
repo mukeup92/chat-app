@@ -1,0 +1,51 @@
+.chat-section {
+  height: 760px;
+  overflow:scroll;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.left-sided {
+	margin-right: 70px;
+	margin-left: 24px;
+	background-color: #ccc;
+}
+
+.right-sided {
+	margin-right: 24px;
+	margin-left: 70px;
+	background-color: #ccb;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.send-button {
+	height: 60px;
+}
+
+.pr-1 {
+	padding-right: 10px !important;
+}
+
+.status-message {
+	background-color: #cca;
+}
+
+.typing {
+	position: fixed;
+	left: 20px;
+	bottom: 75px;
+	font-size: 12px;
+}
+
+message-chat{
+	position: relative;
+}
+
+.time-date {
+	font-size: 8px;
+	color: grey;
+	text-align: right;
+}
